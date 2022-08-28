@@ -9,7 +9,7 @@ function Home() {
     const [recentActivities, setRecentActivities] = useState([]);
     
 
-    Axios.get('https://localhost:7157/GetActivity')
+    Axios.get('https://localhost:5001/GetActivity')
         .then(function (response) {
             // handle success
             console.log(response.data);

@@ -113,7 +113,7 @@ function Voting() {
     }
 
     function callApi() {
-        Axios.get('https://localhost:7157/GetRurals')
+        Axios.get('https://localhost:5001/GetRurals')
             .then(function (response) {
 
                 if (rural.length > 0)
