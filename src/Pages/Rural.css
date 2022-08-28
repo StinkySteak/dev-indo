@@ -1,0 +1,53 @@
+:root {
+    --border: #e0e0e0;
+  }
+
+.rural-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse; 
+    height: 200px;
+}
+
+th {
+    border-bottom: 1px solid var(--border);
+    border-top: 1px solid var(--border);
+}
+
+.rural-table-row
+{
+    border:  2px solid var(--border);
+}
+
+td {
+    text-align: center;
+}
+.rural-table-container
+{
+    padding-top: 100px;
+}
+
+.rural-table-chart
+{
+    width: 250px;
+}
+.rural-table-tr-header
+{
+    height: 40px;
+}
+.rural-table-tr
+{
+    border-bottom: 1pt solid var(--border);
+}
+.rural-table-tr:hover
+{
+    background-color: rgb(202, 215, 226);
+    transition: 0.2s ease-out all;
+    cursor: pointer;
+}

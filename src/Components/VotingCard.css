@@ -1,0 +1,26 @@
+.votingcard
+{
+    background-color: rgb(242, 242, 242);
+    padding-left: 30px;
+    width: 70%;
+    height: 90px;
+    margin-top: 30px;
+}
+
+.votingcard-left
+{
+    width: 30%;
+    height: 100%;
+}
+
+.votingcard-right
+{
+    height: 100%;
+    width: 70%;
+}
+
+.votingcard-score
+{
+    width: 100%;
+    height: 100%;
+}

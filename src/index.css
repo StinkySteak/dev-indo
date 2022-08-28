@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@200&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg {
+  background-color: rgb(250, 250, 250);
+}
+.title-font
+{
+  font-family: 'Anek Telugu', sans-serif;
+}
+.font-weight-100
+{
+  font-weight: 100;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+.flex-left {
+  align-items: center;
+  display: flex;
+  justify-content: left;
+}
+
+.flex-right {
+  align-items: center;
+  display: flex;
+  justify-content: right;
+}

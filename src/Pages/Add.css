@@ -1,0 +1,35 @@
+.add-form-container {
+    
+    width: 40%;
+    margin-top: 100px;
+}
+
+.add-option {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.add-btn {
+    background-color: #3861fb;
+    /* Green */
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.add-btn:hover {
+    background-color: #294ed1;
+    transition: 0.2s all ease-out;
+    cursor: pointer;
+}

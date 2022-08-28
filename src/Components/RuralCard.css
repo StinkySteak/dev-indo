@@ -1,0 +1,23 @@
+.ruralcard
+{
+    background-color: red;
+    height: 200px;
+    display: flex;
+}
+
+.ruralcard-img-container
+{
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ruralcard-text-container
+{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    width: 100%;
+    border:  2px solid blue;
+}

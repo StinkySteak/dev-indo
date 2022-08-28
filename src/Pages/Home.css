@@ -1,0 +1,23 @@
+
+
+.home-flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.home-header-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.home-header
+{
+    color: #171924;
+    font-size: 56px;
+}

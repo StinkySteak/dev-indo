@@ -1,0 +1,38 @@
+
+:root
+{
+    --main: #3861fb;
+}
+
+.btn {
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: rgb(227, 227, 227);
+    transition: 0.2s all ease-out;
+}
+
+.outline {
+    border: 2px solid var(--main);
+    color: var(--main);
+}
+
+.active
+{
+    background-color: #f0f6ff;
+    color:#3861fb;
+}
+
+.inactive
+{
+    
+}
